@@ -1,0 +1,57 @@
+Voccab bundled Simple English dictionary
+
+54,055 word forms and 73,090 senses, from Simple English Wiktionary contributors via Kaikki/Wiktextract. Downloaded for the 7 October 2026 release. The raw file checksum and generated counts are recorded in simple-v1/manifest.json.
+
+Source pages and their histories: https://simple.wiktionary.org/wiki/<word>
+Wiktionary licensing: https://simple.wiktionary.org/wiki/Wiktionary:Copyrights
+Creative Commons Attribution-ShareAlike 4.0: https://creativecommons.org/licenses/by-sa/4.0/
+Licence legal text: https://creativecommons.org/licenses/by-sa/4.0/legalcode.en
+Extraction: https://kaikki.org/dictionary/rawdata.html
+Raw source: https://kaikki.org/dictionary/downloads/simple/simple-extract.jsonl.gz
+Extractor: https://github.com/tatuylonen/wiktextract
+
+The bundled adapted dictionary data is distributed under CC BY-SA 4.0. This applies to the dictionary data, not automatically to the app code. Original word pages credit contributing authors through their page histories.
+
+Changes: retain English entries with a usable definition and headwords at most 120 characters; remove unused fields; group by headword and prefix; order explicitly obsolete/offensive senses after other senses; preserve each definition with its own example and usage labels. Case variants remain separate records. Definition and example wording has not been rewritten. Links to base forms are shown separately. No audio is bundled.
+
+This is a community-maintained dataset and may contain errors, old senses, specialist language or sensitive vocabulary. Word forms include inflections and variants, not only everyday headwords. It is not a complete English dictionary.
+
+Broader online word suggestions: https://www.datamuse.com/api/
+Additional online definitions: https://dictionaryapi.dev/
+External definitions and recordings retain their own supplied licences.
+
+To rebuild from a downloaded raw file: node scripts/import-simple-dictionary.mjs /path/to/simple-extract.jsonl.gz (from src/frontend). Review updated counts and licences before publishing a new dataset.
+
+
+Spanish, German and French — Stage 1, 11 October 2026
+
+Native editions: https://es.wiktionary.org/ , https://de.wiktionary.org/ , https://fr.wiktionary.org/
+Source pages and contributor histories: https://<language>.wiktionary.org/wiki/<word>
+Extraction: Kaikki/Wiktextract, https://kaikki.org/dictionary/rawdata.html
+Raw sources: https://kaikki.org/dictionary/downloads/<language>/<language>-extract.jsonl.gz
+Source files last modified 3 October 2026; prepared 11 October 2026.
+The es-v1, de-v1 and fr-v1 manifests include exact input hashes and counts.
+
+Spanish: 835,164 source headwords; 1,771,422 lookup forms.
+German: 958,693 source headwords; 3,050,461 lookup forms.
+French: 2,034,072 source headwords; 4,240,056 lookup forms.
+Counts include variants, inflections and phrases, not only basic vocabulary.
+
+Native definitions, grammatical labels, IPA and available short contributor
+examples are retained. External quotations with references are omitted; see
+the original pages for those examples. Explicitly obsolete/offensive senses
+are ordered last. Source-supplied additional forms have a labelled base word;
+no forms or meanings are invented. Headwords/forms are limited to 100 Unicode
+characters. Fields are compacted, indexed and gzip-compressed into sections.
+Definitions are not rewritten, automatically simplified or translated.
+
+These adapted datasets remain available under CC BY-SA 4.0:
+https://creativecommons.org/licenses/by-sa/4.0/
+https://creativecommons.org/licenses/by-sa/4.0/legalcode.en
+Original page histories identify contributors. Linking to the original page
+and licence accompanies each displayed entry. No audio files are bundled.
+The data licence does not automatically apply to the app's source code.
+
+The app's Plus access gate does not impose DRM on these open dictionary files.
+To regenerate: python3 scripts/import-plus-dictionaries.py <language> <raw-file>
+from src/frontend. See DICTIONARIES.md in the source project for maintenance.
