@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "bundles": [
+    {
+      "directory": "simple-v1",
+      "file": "simple-v1.zip",
+      "files": 355,
+      "bytes": 9306919,
+      "archiveBytes": 2364290,
+      "sha256": "7505be84ecb19bc81019e592614b86907d57e7cadf8e15f77926ce93a5d14f30",
+      "contentSha256": "3e6bd6e32df5b91ae1e72d1cae75bc8e2c5731c8294d2ec58a1eb0fbaca2bdfb"
+    },
+    {
+      "directory": "es-v1",
+      "file": "es-v1.zip",
+      "files": 5096,
+      "bytes": 33665957,
+      "archiveBytes": 33811386,
+      "sha256": "68fd87cc87d0f6bc424b9b5429d5fb10acfc4ef40105aaefc557afba03a56cc8",
+      "contentSha256": "1a6bd1812bb0a97488cd84bdd0491c6ffe5f3a96e9e6e922f270c219922f0274"
+    },
+    {
+      "directory": "de-v1",
+      "file": "de-v1.zip",
+      "files": 10494,
+      "bytes": 69637436,
+      "archiveBytes": 70309697,
+      "sha256": "4a1d754a092f966efa9625c494420ac53cfa75c2bed74e8dc1df72cea529173a",
+      "contentSha256": "b8256ad0a81efc7864c05e425dfb79821ce0a1e791a76d73c4d07409af3073aa"
+    },
+    {
+      "directory": "fr-v1",
+      "file": "fr-v1.zip",
+      "files": 15269,
+      "bytes": 84736660,
+      "archiveBytes": 85214394,
+      "sha256": "4de7419c5138314893404dcd6c6b3f6889cc929ad335f3827fc18c9b7b1c93ed",
+      "contentSha256": "1564b01eed43620e9341e6e3750d317cae62b1c9d1ce8727cc46396459454145"
+    }
+  ]
+}
